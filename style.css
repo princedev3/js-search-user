@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin-inline: auto;
+    
+
+}
+
+.card-element{
+    display: flex;
+    flex-direction: column;
+}
+.card-element > input{
+    font-size: 1.2rem;
+    outline: none;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    margin-top: 0.6rem;
+    border: 1px solid black;
+}
+.card-element > label {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: black;
+
+}
+.card-user{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 0.4rem;
+    margin-top: 0.8rem;
+}
+.card-user-element{
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+.card-name{
+    font-size: 1.2rem;
+}
+.card-email{
+    color: rgba(0,0,0,0.7);
+}
+.hide{
+    display: none;
+}
